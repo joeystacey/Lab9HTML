@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="style.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="container">
+        <h1>About Me</h1>
+        <p id="greeting"></p>
+        <script>
+            let hour = new Date().getHours();
+            let greetingText = (hour < 12) ? "Good morning!" : (hour < 18) ? "Good afternoon!" : "Good evening!";
+            document.getElementById("greeting").textContent = greetingText;
+        </script>
+        <br><br>
+        
+        <section class="introduction">
+            <h2>Introduction</h2>
+            <p>I am a student at BYU in the Information Technology and Cybersecurity major. I work as a Tier 1 Tech for DSO company HQ'd in Denton, TX called Community Dental Partners. When I am not working, in class, or studying, I enjoy playing soccer, pickleball, and spending time outside.</p>
+        </section>
+
+        <section class="sections">
+            <h3>Section 1: Education</h3>
+                <p>My educational background is a bit less than average, which I'll partly explain in the following section "Work Experience". My first 10 years of primary education is fairly normal. In the 11th grade, COVID-19 shut down in person school, forcing us all onto online class and learning. After about 2 months of teachers figuring out their new curriculum and me transitioning to a new style of learning, I ultimately decided that it was in my best interest to drop out of public high school, begin taking online classes through a community college, and start working on my trade of choice. My senior year consisted of working 35-45 hours a week at an IT support desk and taking online classes in order to graduate with my high school degree.</p>
+                <p>Following an edited version of high school, I entered BYU as a freshman. Unsure of what I wanted to study I first declared as a computer science major. After talking to friends and relatives, I decided that I wanted to pursue healthcare and become a surgeon. That was short-lived. After taking 1 semester of chemistry, I quickly learned that majoring in biology was not right for me. I decided to come back to technology, only this time I began pursuing a degree in Information Systems. That too was short-lived once I learned what it was really about. I now have declared myself as a Cybersecurity major, hoping that I can get a master's with an emphasis in PenTesting/Red-Teaming.</p>
+            <h3>Section 2: Work Experience</h3>
+                <p>I got my first job at 14 as a soccer referee. I did this for about 2 years until I got a job as a lifeguard. I then worked as a lifeguard for 2 years, up until my senior year when I began working at Community Dental Partners at an entry-level position. Here, my responsibilities consisted of answering inbound calls, resolving tickets, fixing hardware/software, and resolving tech "fires". After a year, I decided to leave to come to college. I've since returned to that same company and am currently working as a Tier 1 Tech. As of right now, I am looking for something more focused on cybersecurity and AI automation in order to get more valid work experience for my future career.</p>
+            <h3>Section 3: Hobbies/Pastimes</h3>
+                <p>As a student my time is separated between school, studying, spending time with my fiancée, playing pickleball/soccer, and working. In the past year or so, I've begun playing a lot of pickleball. I was first introduced to it about 5 years ago by my grandpa and ever since then my family has been a pickleball family. I've also played soccer for 12 years so I still really enjoy playing high-level soccer from time to time. On top of all that, I really enjoy studying for my major and doing extracurriculars such as HackTheBox, developing my own controlled hacking workspaces, and studying for my classes. A lot of my time also goes to planning my wedding in April with my fiancée.</p>
+        </section> 
+    </div>
+</body>
+</html>
